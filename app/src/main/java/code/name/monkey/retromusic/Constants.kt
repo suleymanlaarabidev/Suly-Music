@@ -19,9 +19,6 @@ import android.provider.MediaStore
 
 object Constants {
     const val PRO_VERSION_PRODUCT_ID = "pro_version"
-    const val RATE_ON_GOOGLE_PLAY =
-        "https://play.google.com/store/apps/details?id=code.name.monkey.retromusic"
-    const val TRANSLATE = "https://crowdin.com/project/retromusicplayer"
     const val WEBSITE = "https://github.com/suleymanlaarabidev/Suly-Music"
     const val GITHUB_PROJECT = "https://github.com/suleymanlaarabidev/Suly-Music"
     const val TELEGRAM_CHANGE_LOG = "https://t.me/SulyMusicPlayer"
@@ -32,7 +29,7 @@ object Constants {
     const val APP_TWITTER_LINK = "https://t.me/SulyMusicPlayer"
     const val FAQ_LINK = "https://t.me/SulyMusicPlayer"
     const val PINTEREST = "https://t.me/SulyMusicPlayer"
-    const val AUDIO_SCROBBLER_URL = "https://ws.audioscrobbler.com/2.0/"
+
 
     const val IS_MUSIC =
         MediaStore.Audio.AudioColumns.IS_MUSIC + "=1" + " AND " + MediaStore.Audio.AudioColumns.TITLE + " != ''"
