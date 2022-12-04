@@ -67,14 +67,14 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
 
     override fun onClick(view: View) {
         when (view.id) {
-            R.id.pinterestLink -> openUrl(Constants.PINTEREST)
-            R.id.telegramLink -> openUrl(Constants.APP_TELEGRAM_LINK)
-            R.id.appGithub -> openUrl(Constants.GITHUB_PROJECT)
-            R.id.instagramLink -> openUrl(Constants.APP_INSTAGRAM_LINK)
-            R.id.twitterLink -> openUrl(Constants.APP_TWITTER_LINK)
+            R.id.pinterestLink -> openUrl("https://t.me/SulyMusicPlayer")
+            R.id.telegramLink -> openUrl("https://t.me/SulyMusicPlayer")
+            R.id.appGithub -> openUrl("https://github.com/suleymanlaarabidev/Suly-Music")
+            R.id.instagramLink -> openUrl("https://www.instagram.com/laarabisuleyman/")
+            R.id.twitterLink -> openUrl("https://t.me/SulyMusicPlayer")
             R.id.changelog -> NavigationUtil.gotoWhatNews(requireActivity())
             R.id.openSource -> NavigationUtil.goToOpenSource(requireActivity())
-            R.id.websiteLink -> openUrl(Constants.WEBSITE)
+            R.id.websiteLink -> openUrl("https://github.com/suleymanlaarabidev/Suly-Music")
         }
     }
 
