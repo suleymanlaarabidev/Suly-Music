@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://retromusic.app">
+  <a href="#">
     <img src="app\src\main\ic_launcher-web.png" height="128">
     <h1 align="center">Suly Music Player 🎵</h1>
   </a>
