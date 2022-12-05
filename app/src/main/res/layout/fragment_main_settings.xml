@@ -169,7 +169,15 @@
             app:settingListItemIconColor="@color/md_cyan_400"
             app:settingListItemText="@string/backup_restore_settings_summary"
             app:settingListItemTitle="@string/backup_restore_title" />
-
+        <code.name.monkey.retromusic.views.SettingListItemView
+            android:id="@+id/downloadSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:settingListItemIcon="@drawable/avd_music_note"
+            app:settingListItemIconColor="@color/default_blue_light"
+            app:settingListItemText="@string/downloadSong_subTitle"
+            app:settingListItemTitle="@string/downloadSong_title"
+            />
         <code.name.monkey.retromusic.views.SettingListItemView
             android:id="@+id/aboutSettings"
             android:layout_width="match_parent"
@@ -178,6 +186,7 @@
             app:settingListItemIconColor="@color/md_light_green_A400"
             app:settingListItemText="@string/about_settings_summary"
             app:settingListItemTitle="@string/action_about" />
+
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

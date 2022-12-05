@@ -45,7 +45,10 @@ class MainSettingsFragment : Fragment(), View.OnClickListener {
                 R.id.notificationSettings -> R.id.action_mainSettingsFragment_to_notificationSettingsFragment
                 R.id.otherSettings -> R.id.action_mainSettingsFragment_to_otherSettingsFragment
                 R.id.aboutSettings -> R.id.action_mainSettingsFragment_to_aboutActivity
+
                 R.id.nowPlayingSettings -> R.id.action_mainSettingsFragment_to_nowPlayingSettingsFragment
+                R.id.downloadSong -> R.id.action_mainSettingsFragment_to_downloadSong
+
                 R.id.backup_restore_settings -> R.id.action_mainSettingsFragment_to_backupFragment
                 else -> R.id.action_mainSettingsFragment_to_themeSettingsFragment
             }
@@ -73,6 +76,7 @@ class MainSettingsFragment : Fragment(), View.OnClickListener {
         binding.otherSettings.setOnClickListener(this)
         binding.aboutSettings.setOnClickListener(this)
         binding.backupRestoreSettings.setOnClickListener(this)
+        binding.downloadSong.setOnClickListener(this)
 
         binding.buyProContainer.apply {
             isGone = App.isProVersion()

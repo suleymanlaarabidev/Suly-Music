@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45dp"
+            android:text="@string/coming_soon"
+            android:layout_gravity="center"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="if no page is displayed, click on this button"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+
+
+            />
+
+<Button
+    android:id="@+id/go_downloadePage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Go to website"
+    style="@style/HomeActionButton"
+    android:textAlignment="center"
+    android:layout_gravity="center"
+  />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

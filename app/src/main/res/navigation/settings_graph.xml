@@ -74,6 +74,14 @@
             app:launchSingleTop="true"
             app:popEnterAnim="@anim/retro_fragment_close_enter"
             app:popExitAnim="@anim/retro_fragment_close_exit" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_downloadSong"
+            app:destination="@id/downloadSong"
+            app:enterAnim="@anim/retro_fragment_open_enter"
+            app:exitAnim="@anim/retro_fragment_open_exit"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/retro_fragment_close_enter"
+            app:popExitAnim="@anim/retro_fragment_close_exit" />
 
         <action
             android:id="@+id/action_mainSettingsFragment_to_backupFragment"
@@ -83,6 +91,8 @@
             app:launchSingleTop="true"
             app:popEnterAnim="@anim/retro_fragment_close_enter"
             app:popExitAnim="@anim/retro_fragment_close_exit" />
+
+
     </fragment>
 
     <fragment
@@ -124,6 +134,10 @@
         android:id="@+id/aboutActivity"
         android:name="code.name.monkey.retromusic.fragments.about.AboutFragment"
         android:label="About" />
+    <fragment
+        android:id="@+id/downloadSong"
+        android:name="code.name.monkey.retromusic.fragments.downloadSong.DownloadSongFragment"
+        android:label="@string/downloadSong_title" />
 
     <fragment
         android:id="@+id/backup_fragment"
