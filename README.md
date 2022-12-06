@@ -63,7 +63,7 @@ favorite songs. No other music player has this feature.
 - Create, edit and import playlists
 - Playing queue with reorder
 - User profile
-- 30+ languages support (help translate the project: [Crowdin](https://crowdin.com/project/retromusicplayer)
+- 30+ languages support (help translate the project: Comming soon
 - Browse and play your music by songs, albums, artists, playlists and
   genre
 - Smart Auto Playlists - Recently played, most played and history
