@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/Platform-Android-green.svg">
   </a>
   <a href="https://github.com/suleymanlaarabidev/Suly-Music" style="text-decoration:none" area-label="Build Status">
-    <img src="https://github.com/RetroMusicPlayer/RetroMusicPlayer/actions/workflows/android.yml/badge.svg">
+    <img src="https://github.com/SulyMusicPlayer/SulyMusicPlayer/actions/workflows/android.yml/badge.svg">
   </a>
   <a href="https://github.com/suleymanlaarabidev/Suly-Music" style="text-decoration:none" area-label="Min API: 21">
     <img src="https://img.shields.io/badge/minSdkVersion-21-green.svg">
@@ -75,8 +75,8 @@ We are trying our best to bring you the best user experience. The app is regular
 
 ## 🗂️ License
 
-Retro Music Player is released under the GNU General Public License v3.0
+Suly Music Player is released under the GNU General Public License v3.0
 (GPLv3), which can be found [here](LICENSE.md)
 
-> Please note: Retro Music Player is a local music player app. It
+> Please note: Suly Music Player is a local music player app. It
 > doesn't support music downloading or online music streaming.
