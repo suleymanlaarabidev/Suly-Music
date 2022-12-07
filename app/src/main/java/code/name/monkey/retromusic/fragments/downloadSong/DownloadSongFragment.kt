@@ -20,6 +20,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import code.name.monkey.retromusic.R
 import code.name.monkey.retromusic.extensions.openUrl
+import com.google.android.material.textfield.TextInputEditText
 
 
 class DownloadSongFragment : Fragment(R.layout.download_song_website), View.OnClickListener {
@@ -27,11 +28,21 @@ class DownloadSongFragment : Fragment(R.layout.download_song_website), View.OnCl
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         openUrl("https://myfreemp3.to/")
+
         val button = view.findViewById<Button>(R.id.go_downloadePage)
+        val editText = view.findViewById<TextInputEditText>(R.id.editText)
+        val buttonSearch = view.findViewById<Button>(R.id.Search)
+
 
 button.setOnClickListener{
     openUrl("https://myfreemp3.to/")
 }
+        buttonSearch.setOnClickListener{
+            val text = editText.text
+
+            openUrl("https://myfreemp3.to/$text")
+        }
+
 
     }
 
